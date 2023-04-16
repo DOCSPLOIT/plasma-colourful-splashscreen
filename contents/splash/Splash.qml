@@ -99,7 +99,7 @@ Rectangle {
 
         OpacityAnimator {
         // id: introAnimation
-        running: true
+        // running: true
         target: peace
         from: 0
         to: 1
@@ -112,7 +112,7 @@ Rectangle {
                 from: 0;
                 to: 1;
                 duration: 300
-                running: true
+                // running: true
                 easing.type: Easing.InOutQuad
         }
 
@@ -121,7 +121,7 @@ Rectangle {
                 from: 0;
                 to: 1;
                 duration: 200
-                running: true
+                // running: true
                 easing.type: Easing.InOutQuad
         }
 
@@ -130,7 +130,7 @@ Rectangle {
                 from: 0;
                 to: 1;
                 duration: 50
-                running: true
+                // running: true
                 easing.type: Easing.InOutQuad
         }
     }
@@ -166,7 +166,7 @@ SequentialAnimation{
     running:true
 OpacityAnimator {
         // id: introAnimation
-        running: true
+        // running: true
         target: welcomeText
         from: 1
         to: 0
@@ -175,7 +175,7 @@ OpacityAnimator {
     }
       OpacityAnimator {
         // id: introAnimation
-        running: true
+        // running: true
         target: versionText
         from: 0
         to: 1
